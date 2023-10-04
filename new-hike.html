@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>Hiking Buddies | register</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          <h7>
+            <a href="index.html">Hiking Buddies</a>
+          </h7>
+        </div> 
+        <ul class="nav-links">
+          <li><a href="tours.php">tours</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="login.html">login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="new-hike">
+            
+            <h1>New Hike</h1>
+            <form method="POST" action="paste.php">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="E-Mail">
+    
+                <h3>Duration</h3>
+                <br>
+                <input type="text" name="location" placeholder="Location">
+                <input type="radio" name="duration" id="duration1" value="one day">
+                <label for="duration1">One day</label>
+                <br>
+                <input type="radio" name="duration" id="duration2" value="multiple days">
+                <label for="duration2">Multiple days</label>
+        
+                <br>
+    
+                <h3>Distance</h3>
+                <br>
+                <input type="radio" name="distance" id="distance1" value="0-5 km">
+                <label for="distance1">0-5 km</label>
+                <br>
+                <input type="radio" name="distance" id="distance2" value="5-10 km">
+                <label for="distance2">5-10 km</label>
+                <br>
+                <input type="radio" name="distance" id="distance3" value="10-15 km">
+                <label for="distance3">10-15 km</label>
+                <br>
+                <input type="radio" name="distance" id="distance4" value="15-20 km">
+                <label for="distance4">15-20 km</label>
+                <br>
+                <input type="radio" name="distance" id="distance5" value="20-30 km">
+                <label for="distance5">20-30 km</label>
+                <br>
+                <input type="radio" name="distance" id="distance6" value="30+ km">
+                <label for="distance6">30+ km</label>
+           
+                <br>
+    
+                <h3>Difficulty</h3>
+                <br>
+                <input type="radio" name="difficulty" id="difficulty1" value="Beginner">
+                <label for="difficulty1">Beginner</label>
+                <br>
+                <input type="radio" name="difficulty" id="difficulty2" value="Easy">
+                <label for="difficulty2">Easy</label>
+                <br>
+                <input type="radio" name="difficulty" id="difficulty3" value="Intermediate">
+                <label for="difficulty3">Intermediate</label>
+                <br>
+                <input type="radio" name="difficulty" id="difficulty4" value="Challenging">
+                <label for="difficulty4">Challenging</label>
+                <br>
+                <input type="radio" name="difficulty" id="difficulty5" value="Profi">
+                <label for="difficulty5">Profi</label>
+                <br>
+                <input type="submit" value="Publish"> 
+            </form>
+    
+            <br>
+    
+             
+        </div>
+    </main>    
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
